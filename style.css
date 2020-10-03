@@ -1,0 +1,32 @@
+.actionButtons{
+  height:32px;
+  width:72px;
+  border:1px solid red;
+}
+.handSpace{
+  display:inline-block;
+  text-align:center;
+}
+.hand{
+  display:inline-block;
+  margin:20px 10px -18px auto;
+  padding: 5px;
+  border:2px solid red;
+}
+
+#gameSpace{
+  display:flex;
+  flex-direction:column;
+}
+#gameBoard{
+  display:flex;
+  padding: 5px;
+  margin: -362px auto -6px auto;
+  border:2px solid red;
+}
+#tileBoard{
+  display:flex;
+  padding: 5px;
+  border: 2px solid blue;
+  margin: 20px auto 10px auto;
+}
